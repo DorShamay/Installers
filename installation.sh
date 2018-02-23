@@ -66,13 +66,13 @@ select func in "Centos" "Debian"
   	 case $func in
 		"Centos" | "centos")
       centos_installation
-        $line
-        $line
+        printf $line
+        printf $line
            ;;
 		"Debian" | "debian")
       debian_installation
-        $line
-        $line
+        printf $line
+        printf $line
 		       ;;
            "Quit" | "q")
              exit 0
